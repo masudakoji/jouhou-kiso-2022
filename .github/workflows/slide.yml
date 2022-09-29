@@ -12,6 +12,7 @@ jobs:
           echo "::set-output name=DIR::${directory}"
           echo "::set-output name=FORMAT::${output_format}"
         id: config
+      - run: sudo chmod 755 ${{steps.config.outputs.DIR}}
       - run: docker run --rm -u root --init -v "$(pwd):/home/marp/app/" 
               -e LANG="ja_JP.UTF-8" marpteam/marp-cli ${{steps.config.outputs.DIR}}/01_introduce_colab.md 
               --${{steps.config.outputs.FORMAT}} 
