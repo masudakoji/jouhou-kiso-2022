@@ -13,6 +13,9 @@ Course materials for Fundamentals of Information Technology
   - 演習や課題としてさせるよりは、教員のデモとして用いるのが良いかと思います
   - 興味がある学生がいれば提供してもよろしいかと思います
 
+## スライド
+- [Google Colaboratoryの導入](slide/01_introduce_colab.pdf)
+
 ## 関連ファイル
 
 - [実行環境のバージョン確認](debug_env.ipynb)
