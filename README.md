@@ -21,9 +21,10 @@ Course materials for Fundamentals of Information Technology
     - 8問あります
     - 四則演算や、剰余などを使った問題演習
     - 最後に答え合わせする関数もつけています
-- [リスト・繰り返し処理](04_List_Array.ipynb)
-  - リスト
-  - 繰り返し処理
+- [リスト](04_List_Array.ipynb)
+  - リストを使ったプログラミング
+
+
 
 ## スライド
 - [Google Colaboratoryの導入](slide/01_introduce_colab.pdf)
